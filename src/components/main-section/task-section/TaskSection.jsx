@@ -1,6 +1,8 @@
 import React from 'react'
 import TaskResolved from './task-resolve/TaskResolve'
 import TaskStatuses from './task-status/TaskStatuses'
+import { toast } from 'react-toastify';
+
 
 const TaskStatusSection = ({ taskStatus, setTaskStatus, resolves, setResolves, setAllTicket, allTicket }) => {
     const handleResolve = (task) => {
@@ -11,9 +13,10 @@ const TaskStatusSection = ({ taskStatus, setTaskStatus, resolves, setResolves, s
             setResolves([...resolves, task])
             setTaskStatus(filterdTaskStatuses);
             setAllTicket(filterdAllTickets);
+            toast.success("Task Resolved Successfully!")
         }
         else {
-            alert("not complate");
+            toast.error("Not Complated");
         }
 
     }

@@ -1,5 +1,6 @@
 import React from 'react'
 import TicketCard from './customerTicketCard/TicketCard'
+import { toast } from 'react-toastify';
 
 const CustomerTickets = ({ allTicket, taskStatus, setTaskStatus }) => {
 
@@ -7,8 +8,9 @@ const CustomerTickets = ({ allTicket, taskStatus, setTaskStatus }) => {
         const isAdded = taskStatus.find(tsk => tsk.id === task.id);
         if (!isAdded) {
             setTaskStatus([...taskStatus, task]);
+            toast.success("Task Added to Status!")
         } else {
-            alert("already added");
+            toast.error("Task Already Added!");
         }
     }
 
