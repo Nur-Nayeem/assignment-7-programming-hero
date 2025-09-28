@@ -1,29 +1,4 @@
-// import React from 'react'
-
-// const Navbar = () => {
-//     return (
-//         <div className=' bg-white shadow-2xs'>
-//             <div className='container mx-auto flex justify-between items-center'>
-//                 <h2 className='font-bold text-2xl'>CS — Ticket System</h2>
-//                 <div className='flex items-center gap-10 py-4'>
-//                     <ul className='flex justify-between items-center gap-10'>
-//                         <li><a href="">Home</a></li>
-//                         <li><a href="">FAQ</a></li>
-//                         <li><a href="">Changelog</a></li>
-//                         <li><a href="">Blog</a></li>
-//                         <li><a href="">Download</a></li>
-//                         <li><a href="">Contact</a></li>
-//                     </ul>
-//                     <button className='bg-gradient-to-br from-[#632EE3] to-[#9F62F2] py-3 px-4 rounded-sm text-white'>+ New Ticket</button>
-//                 </div>
-//             </div>
-//         </div>
-//     )
-// }
-
-
-
-import React from 'react'
+import React, { useState } from 'react'
 
 const Navbar = () => {
     return (
@@ -59,7 +34,7 @@ const Navbar = () => {
                     <button className='bg-gradient-to-br from-[#632EE3] to-[#9F62F2] py-3 px-4 rounded-sm font-semibold text-white'>+ New Ticket</button>
                 </div>
                 <div className="md:hidden">
-                    <button className='bg-gradient-to-br from-[#632EE3] to-[#9F62F2] py-3 px-4 rounded-sm text-white'>+ New Ticket</button>
+                    <button className='bg-gradient-to-br from-[#632EE3] to-[#9F62F2] py-1 px-4 rounded-sm text-white text-2xl'>+</button>
                 </div>
             </div>
         </div>
