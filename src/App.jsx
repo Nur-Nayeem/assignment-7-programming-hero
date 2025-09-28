@@ -3,6 +3,7 @@ import './App.css'
 import Navbar from './components/Navbar/Navbar'
 import Banner from './components/banner/Banner'
 import MainSection from './components/main-section/MainSection'
+import Footer from './components/footer/Footer'
 
 const App = () => {
   return (
@@ -10,6 +11,7 @@ const App = () => {
       <Navbar />
       <Banner />
       <MainSection />
+      <Footer />
     </div>
   )
 }
