@@ -1,110 +1,110 @@
 [
     {
-        "id": "#1013",
-        "title": "Email Verification Not Received",
+        "id": 1013,
+        "title": "Email verification not received",
         "description": "Customer signed up but did not receive a verification email despite multiple attempts.",
         "customer": "Ella Carter",
-        "priority": "MEDIUM PRIORITY",
-        "status": "In-Progress",
-        "createdAt": "1/27/2024"
+        "priority": "medium",
+        "status": "in-progress",
+        "createdAt": "2024-01-27"
     },
     {
-        "id": "#1014",
-        "title": "Promo Code Not Applying",
+        "id": 1014,
+        "title": "Promo code not applying",
         "description": "Customer reports that the discount code 'WELCOME20' is not applying at checkout.",
         "customer": "Lucas Green",
-        "priority": "LOW PRIORITY",
-        "status": "Open",
-        "createdAt": "1/28/2024"
+        "priority": "low",
+        "status": "open",
+        "createdAt": "2024-01-28"
     },
     {
-        "id": "#1015",
-        "title": "Cannot Change Password",
+        "id": 1015,
+        "title": "Cannot change password",
         "description": "Customer is unable to update their password via the settings page. Error: 'Invalid request'.",
         "customer": "Grace Hall",
-        "priority": "HIGH PRIORITY",
-        "status": "Open",
-        "createdAt": "1/29/2024"
+        "priority": "high",
+        "status": "open",
+        "createdAt": "2024-01-29"
     },
     {
-        "id": "#1016",
-        "title": "Unexpected Logout",
+        "id": 1016,
+        "title": "Unexpected logout",
         "description": "Customer is being logged out automatically after a few minutes of inactivity.",
         "customer": "Henry Adams",
-        "priority": "MEDIUM PRIORITY",
-        "status": "In-Progress",
-        "createdAt": "1/30/2024"
+        "priority": "medium",
+        "status": "in-progress",
+        "createdAt": "2024-01-30"
     },
     {
-        "id": "#1017",
-        "title": "App Not Syncing with Website",
+        "id": 1017,
+        "title": "App not syncing with website",
         "description": "Customer's data on the app doesn't match what they see on the website dashboard.",
         "customer": "Mia Turner",
-        "priority": "HIGH PRIORITY",
-        "status": "Open",
-        "createdAt": "2/1/2024"
+        "priority": "high",
+        "status": "open",
+        "createdAt": "2024-02-01"
     },
     {
-        "id": "#1018",
-        "title": "Unable to Add New Payment Method",
+        "id": 1018,
+        "title": "Unable to add new payment method",
         "description": "Customer is trying to add a new debit card but the system rejects it with no error message.",
         "customer": "Jackson Scott",
-        "priority": "HIGH PRIORITY",
-        "status": "Open",
-        "createdAt": "2/2/2024"
+        "priority": "high",
+        "status": "open",
+        "createdAt": "2024-02-02"
     },
     {
-        "id": "#1019",
-        "title": "Language Settings Not Saving",
+        "id": 1019,
+        "title": "Language settings not saving",
         "description": "Customer changes the language to Spanish, but the site reverts back to English.",
         "customer": "Lily Parker",
-        "priority": "LOW PRIORITY",
-        "status": "In-Progress",
-        "createdAt": "2/3/2024"
+        "priority": "low",
+        "status": "in-progress",
+        "createdAt": "2024-02-03"
     },
     {
-        "id": "#1020",
-        "title": "Overdue Invoice Alert Issue",
+        "id": 1020,
+        "title": "Overdue invoice alert issue",
         "description": "Customer keeps receiving alerts about an overdue invoice that’s already been paid.",
         "customer": "Sebastian Brooks",
-        "priority": "MEDIUM PRIORITY",
-        "status": "Open",
-        "createdAt": "2/4/2024"
+        "priority": "medium",
+        "status": "open",
+        "createdAt": "2024-02-04"
     },
     {
-        "id": "#1021",
-        "title": "Dark Mode Not Available",
+        "id": 1021,
+        "title": "Dark mode not available",
         "description": "Customer is unable to find the option to enable dark mode in the latest update.",
         "customer": "Zoe Evans",
-        "priority": "LOW PRIORITY",
-        "status": "Open",
-        "createdAt": "2/5/2024"
+        "priority": "low",
+        "status": "open",
+        "createdAt": "2024-02-05"
     },
     {
-        "id": "#1022",
-        "title": "Push Notifications Not Working",
+        "id": 1022,
+        "title": "Push notifications not working",
         "description": "Customer has enabled push notifications but is not receiving any alerts.",
         "customer": "Logan Reed",
-        "priority": "MEDIUM PRIORITY",
-        "status": "In-Progress",
-        "createdAt": "2/6/2024"
+        "priority": "medium",
+        "status": "in-progress",
+        "createdAt": "2024-02-06"
     },
     {
-        "id": "#1023",
-        "title": "Incorrect Profile Name Display",
+        "id": 1023,
+        "title": "Incorrect profile name display",
         "description": "Customer's profile is showing an old display name even after updating it.",
         "customer": "Chloe Bennett",
-        "priority": "LOW PRIORITY",
-        "status": "Open",
-        "createdAt": "2/7/2024"
+        "priority": "low",
+        "status": "open",
+        "createdAt": "2024-02-07"
     },
     {
-        "id": "#1024",
-        "title": "Multiple Charges for One Order",
+        "id": 1024,
+        "title": "Multiple charges for one order",
         "description": "Customer was charged twice for a single purchase and wants a refund.",
         "customer": "Daniel Murphy",
-        "priority": "HIGH PRIORITY",
-        "status": "In-Progress",
-        "createdAt": "2/8/2024"
+        "priority": "high",
+        "status": "in-progress",
+        "createdAt": "2024-02-08"
     }
 ]

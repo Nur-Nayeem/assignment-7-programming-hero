@@ -1,13 +1,12 @@
 import React from 'react'
 import StatusCard from './StatusCard';
 
-const TaskStatus = () => {
-    let taskStatus = false;
+const TaskStatuses = ({ taskStatus, handleResolve }) => {
     return (
         <div>
             <h2 className='mb-2 text-[#34485A] font-semibold text-2xl'>Task Status</h2>
             {
-                taskStatus ?
+                taskStatus.length === 0 ?
 
                     <div>
                         <p className='text-[#627382]'>Select a ticket to add to Task Status</p>
@@ -15,8 +14,11 @@ const TaskStatus = () => {
 
                     :
 
-                    <div>
-                        <StatusCard />
+                    <div className='flex flex-col gap-2.5'>
+                        {
+                            taskStatus.map(status => <StatusCard key={status.id} status={status} title={status.title} handleResolve={handleResolve} />)
+                        }
+
                     </div>
             }
 
@@ -24,4 +26,4 @@ const TaskStatus = () => {
     )
 }
 
-export default TaskStatus
+export default TaskStatuses

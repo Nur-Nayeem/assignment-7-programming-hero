@@ -6,8 +6,8 @@ import mail from '../../assets/mail.png'
 const Footer = () => {
     return (
         <div className='mt-20  bg-black text-white'>
-            <div className='container mx-auto px-2.5 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-6 py-20'>
-                <div className='max-w-[350px]'>
+            <div className='container mx-auto px-2.5 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-10 py-20'>
+                <div>
                     <h3 className='text-2xl font-bold mb-4'>CS — Ticket System</h3>
                     <p className='text-[#A1A1AA]'>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
                 </div>

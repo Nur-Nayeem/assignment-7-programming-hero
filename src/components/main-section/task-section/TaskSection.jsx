@@ -1,12 +1,28 @@
 import React from 'react'
-import TaskStatus from './task-status/TaskStatus'
 import TaskResolved from './task-resolve/TaskResolve'
+import TaskStatuses from './task-status/TaskStatuses'
 
-const TaskStatusSection = () => {
+const TaskStatusSection = ({ taskStatus, setTaskStatus, resolves, setResolves, setAllTicket, allTicket }) => {
+    const handleResolve = (task) => {
+        const ispresent = resolves.find(tsk => tsk.id === task.id);
+        if (!ispresent) {
+            const filterdTaskStatuses = taskStatus.filter(tsk => tsk.id !== task.id)
+            const filterdAllTickets = allTicket.filter(tsk => tsk.id !== task.id)
+            setResolves([...resolves, task])
+            setTaskStatus(filterdTaskStatuses);
+            setAllTicket(filterdAllTickets);
+        }
+        else {
+            alert("not complate");
+        }
+
+    }
+    console.log(resolves);
+
     return (
         <div className='flex-1/2 xl:flex-1/3 flex flex-col gap-10'>
-            <TaskStatus />
-            <TaskResolved />
+            <TaskStatuses taskStatus={taskStatus} setTaskStatus={setTaskStatus} handleResolve={handleResolve} />
+            <TaskResolved resolves={resolves} />
         </div>
     )
 }
