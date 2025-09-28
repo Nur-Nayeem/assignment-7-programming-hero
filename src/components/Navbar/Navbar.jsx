@@ -31,10 +31,10 @@ const Navbar = () => {
                         <li><a href="">Download</a></li>
                         <li><a href="">Contact</a></li>
                     </ul>
-                    <button className='bg-gradient-to-br from-[#632EE3] to-[#9F62F2] py-3 px-4 rounded-sm font-semibold text-white'>+ New Ticket</button>
+                    <button className='cursor-pointer bg-gradient-to-br from-[#632EE3] to-[#9F62F2] py-3 px-4 rounded-sm font-semibold text-white'>+ New Ticket</button>
                 </div>
                 <div className="md:hidden">
-                    <button className='bg-gradient-to-br from-[#632EE3] to-[#9F62F2] py-1 px-4 rounded-sm text-white text-2xl'>+</button>
+                    <button className='cursor-pointer bg-gradient-to-br from-[#632EE3] to-[#9F62F2] py-1 px-4 rounded-sm text-white text-2xl'>+</button>
                 </div>
             </div>
         </div>

@@ -5,7 +5,7 @@ const TicketCard = ({ ticket, handleTaskStatus }) => {
     const { id, title, description, customer, priority, status, createdAt } = ticket;
 
     return (
-        <div onClick={() => handleTaskStatus(ticket)} className='bg-white p-4 shadow-md rounded-sm'>
+        <div onClick={() => handleTaskStatus(ticket)} className='cursor-pointer bg-white p-4 shadow-md rounded-sm'>
             <div className='flex justify-between'>
                 <h3 className='text-lg font-medium text-[#001931]'>{title}</h3>
                 <button className='bg-[#B9F8CF] px-3 py-1 flex items-center rounded-full text-[#0B5E06]'><div className='w-[16px] h-[16px] bg-[#02A53B] rounded-full mr-1.5'></div> {status}</button>
