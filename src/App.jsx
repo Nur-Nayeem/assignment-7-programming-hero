@@ -6,7 +6,7 @@ import MainSection from './components/main-section/MainSection'
 
 const App = () => {
   return (
-    <div className='bg-[#F5F5F5] h-screen font-inter'>
+    <div className='bg-[#F5F5F5] font-inter'>
       <Navbar />
       <Banner />
       <MainSection />
