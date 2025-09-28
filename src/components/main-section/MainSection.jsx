@@ -4,7 +4,7 @@ import TaskStatusSection from './task-section/TaskSection'
 
 const MainSection = () => {
     return (
-        <div className='container mx-auto flex gap-8'>
+        <div className='container mx-auto px-2.5 flex flex-col md:flex-row gap-8'>
             <CustomerTickets />
             <TaskStatusSection />
         </div>

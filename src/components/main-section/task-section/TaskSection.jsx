@@ -4,7 +4,7 @@ import TaskResolved from './task-resolve/TaskResolve'
 
 const TaskStatusSection = () => {
     return (
-        <div className='flex-1/3 flex flex-col gap-10'>
+        <div className='flex-1/2 xl:flex-1/3 flex flex-col gap-10'>
             <TaskStatus />
             <TaskResolved />
         </div>
