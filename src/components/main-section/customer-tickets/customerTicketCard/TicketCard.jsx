@@ -16,11 +16,11 @@ const TicketCard = ({ ticket, handleTaskStatus }) => {
                     <span className='text-[#627382]'>#{id}</span>
                     <span className={`${priority === 'medium' ? 'text-[#FEBB0C] ' : priority === 'high' ? 'text-[#F83044] ' : 'text-[#02A53B] '}`} >{priority.toUpperCase()} PRIORITY</span>
                 </div>
-                <div className='flex gap-2.5 text-sm'>
-                    <span className='text-[#627382]'>{customer}</span>
+                <div className='flex flex-col sm:flex-row gap-2.5 text-sm'>
+                    <span className='text-[#627382] text-[16px] sm:text-sm'>{customer}</span>
                     <div className='flex gap-1.5'>
-                        <figure>
-                            <img src={calender} alt="" />
+                        <figure className='w-6 h-6'>
+                            <img className='w-full h-full' src={calender} alt="" />
                         </figure>
                         <span className='text-[#627382]'>{createdAt.replaceAll("-", "/")}</span>
                     </div>
