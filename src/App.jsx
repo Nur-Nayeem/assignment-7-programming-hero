@@ -15,7 +15,7 @@ const App = () => {
     <div className='bg-[#F5F5F5] font-inter'>
       <Navbar />
       <Banner taskStatus={taskStatus} resolves={resolves} />
-      <Suspense fallback={<h1>Loading...</h1>}>
+      <Suspense fallback={<LoadingComponent />}>
         <MainSection fetchCustomerTickets={fetchCustomerTickets} taskStatus={taskStatus} setTaskStatus={setTaskStatus} resolves={resolves} setResolves={setResolves} />
       </Suspense>
       <Footer />
@@ -25,3 +25,14 @@ const App = () => {
 }
 
 export default App
+
+
+const LoadingComponent = () => {
+  return (
+    <div className='container mx-auto text-center'>
+      <span className="loading loading-dots loading-xl"></span>
+    </div>
+  )
+}
+
+
